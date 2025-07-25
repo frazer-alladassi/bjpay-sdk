@@ -48,7 +48,7 @@ gradlew
 *.m2/
 
 # === Lint/Build Reports ===
-*.xml
+#*.xml
 *.html
 *.json
 lint/intermediates/

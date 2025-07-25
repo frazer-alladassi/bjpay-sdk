@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bj.asin.bjpay">
+
+    <!-- Permission Internet si le paiement passe par une URL distante -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application>
+        <!-- Déclaration de l'activité WebView de paiement -->
+        <activity
+            android:name=".PaymentWebViewActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:hardwareAccelerated="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+    </application>
+
+</manifest>
