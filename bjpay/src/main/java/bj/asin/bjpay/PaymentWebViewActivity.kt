@@ -26,7 +26,7 @@ class PaymentWebViewActivity : AppCompatActivity() {
     }
 
     private fun buildUrlFromIntent(intent: Intent): String {
-        val base = "http://10.53.9.65:5173"
+        val base = "http://10.71.2.60:8088"
         val params = listOf(
             "totalamount=${intent.getIntExtra("totalamount", 0)}",
             "currency=${intent.getStringExtra("currency")}",
